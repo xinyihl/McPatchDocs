@@ -95,7 +95,11 @@ const config = {
             label: 'V2 文档',
             position: 'left',
           },
-          {to: '/blog', label: '更新日志', position: 'left'},
+          {
+            href: '/updatelog',
+            label: '更新日志',
+            position: 'left',
+          },
           {
             href: '/contribute',
             label: '贡献者列表',
